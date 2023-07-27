@@ -14,15 +14,48 @@
       </header>
       <div class="card">
         <div class="card-header">
-          <h2 id = "Question">Start Quiz:</h2>
+          <h3>Enter City:</h3>
+          <form onsubmit="getWeather()">
+            <input type="text" id="city"/><br>
+          </form>
+
         </div>
-        <div class="card-body"></div>
+        <div class="card-body">
+            <div class="searcHistory">
+                <button  class="btn" id="lastSearch1"></button>
+                <button  class="btn" id="lastSearch2"></button>
+                <button  class="btn" id="lastSearch3"></button>
+                <button  class="btn" id="lastSearch4"></button>
+                <button  class="btn" id="lastSearch5"></button>
+            </div>
+            <div class="weather-card">
+                <p id = temp1>Temp: </p>
+                <p id="hum1">Humidity: </p>
+                <p id = wind1>Wind Speed: </p>
+            </div>
+            <div class="weather-card">
+                <p id = temp2>Temp: </p>
+                <p id="hum2">Humidity: </p>
+                <p id = wind2>Wind Speed: </p>
+            </div>
+            <div class="weather-card">
+                <p id = temp3>Temp: </p>
+                <p id="hum3">Humidity: </p>
+                <p id = wind3>Wind Speed: </p>
+            </div>
+            <div class="weather-card">
+                <p id = temp4>Temp: </p>
+                <p id="hum4">Humidity: </p>
+                <p id = wind4>Wind Speed: </p>
+            </div>
+            <div class="weather-card">
+                <p id = temp5>Temp: </p>
+                <p id="hum5">Humidity: </p>
+                <p id = wind5>Wind Speed: </p>
+            </div>
+        </div>
     </div>
-
-    <div class = "Timer">
-        <p id = "TimerID"></p>
-    </div>
-
+    
     <script src="./JS/script.js"></script>
   </body>
 </html>
