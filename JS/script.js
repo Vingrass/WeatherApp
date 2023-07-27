@@ -1,4 +1,4 @@
-//I've had a very not good week and didnt have much time to work on this. I had to rush through alot of this. I am not proud very proud of the result.
+//I have had a very not good week and didnt have much time to work on this. I had to rush through alot of this. I am not proud very proud of the result.
 const APIKey = "57fd6244d936d349b1e391d63d133c49"
 var city;
 var numQuests = 5;
@@ -92,11 +92,6 @@ function showBtn(){
     }
 
     numQuests -= 1;
-    console.log(localStorage.getItem("cityOne"));
-    console.log(localStorage.getItem("cityTwo"));
-    console.log(localStorage.getItem("cityThree"));
-    console.log(localStorage.getItem("cityFour"));
-    console.log(localStorage.getItem("cityFive"));
 }
 
 ///\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\\\
